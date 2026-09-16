@@ -4,6 +4,8 @@ Store-local paint desk for a Saturday retail pit. Associates tap **Find**, **Mat
 
 Cloud is Sync only. Formula math never uses display −100…+100. A desk crash does not kill an in-flight dispense.
 
+**Repo:** https://github.com/PabloTheThinker/tintrail
+
 ## Run it
 
 ```bash
@@ -16,7 +18,7 @@ pnpm dev
 - Desk: http://127.0.0.1:5173
 - Runtime: http://127.0.0.1:8787
 
-Catalog colors are synthetic. Inbound BOPIS is a synthetic adapter, not OrderUp.
+`pnpm install` writes a fresh lockfile. Catalog colors are synthetic. Inbound BOPIS is a synthetic adapter, not OrderUp.
 
 ## Everyday buttons
 
