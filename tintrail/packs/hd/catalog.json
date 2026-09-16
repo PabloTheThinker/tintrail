@@ -1,0 +1,65 @@
+{
+  "pack": "hd",
+  "asOf": "2026-09-14T10:14:00Z",
+  "store": "0505",
+  "station": "D1",
+  "lines": ["Marquee", "Premium Plus", "Dynasty", "Ultra"],
+  "sheens": ["Flat", "Eggshell", "Satin", "Semi", "Gloss"],
+  "sizes": ["8oz", "Qt", "Gal", "5gal"],
+  "colors": [
+    {
+      "id": "behr-swiss-coffee",
+      "brand": "Behr",
+      "name": "Swiss Coffee",
+      "code": "12-B",
+      "swatch": "#EFE6D4",
+      "kind": "OEM",
+      "gallonRecipe": { "W1": 36, "Y3": 8, "R2": 2 }
+    },
+    {
+      "id": "glidden-black",
+      "brand": "Glidden",
+      "name": "Black",
+      "code": "GLN-90",
+      "swatch": "#1A1A1A",
+      "kind": "OEM",
+      "gallonRecipe": { "B1": 192, "K": 48 }
+    },
+    {
+      "id": "behr-black",
+      "brand": "Behr",
+      "name": "Black",
+      "code": "PPU18-20",
+      "swatch": "#2B2B2B",
+      "kind": "OEM",
+      "gallonRecipe": { "B1": 180, "K": 40, "R2": 4 }
+    },
+    {
+      "id": "sherwin-black-magic",
+      "brand": "Sherwin",
+      "name": "Black Magic",
+      "code": "SW-6991",
+      "swatch": "#0C0C0C",
+      "kind": "Match",
+      "gallonRecipe": { "B1": 200, "K": 56 }
+    },
+    {
+      "id": "behr-silent-fog",
+      "brand": "Behr",
+      "name": "Silent Fog",
+      "code": "N360-1",
+      "swatch": "#D5D6D2",
+      "kind": "OEM",
+      "gallonRecipe": { "W1": 24, "B1": 6, "Y3": 3 }
+    },
+    {
+      "id": "ppg-silent-fog",
+      "brand": "PPG",
+      "name": "Silent Fog",
+      "code": "PPG1001",
+      "swatch": "#D2D4CF",
+      "kind": "Match",
+      "gallonRecipe": { "W1": 22, "B1": 8, "Y3": 2 }
+    }
+  ]
+}
