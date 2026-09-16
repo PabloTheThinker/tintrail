@@ -1,0 +1,81 @@
+:root {
+  --bg: #12141a;
+  --bg-raised: #1b1e27;
+  --bg-sunken: #0e1015;
+  --line: #2a3040;
+  --text: #f2f4f8;
+  --text-dim: #9aa3b5;
+  --accent: #f5a623;
+  --accent-ink: #1a1204;
+  --ok: #3ddc97;
+  --warn: #f5c542;
+  --bad: #f07167;
+  --match: #7aa2f7;
+  --font: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --type-xs: 14px;
+  --type-sm: 16px;
+  --type-md: 18px;
+  --type-lg: 24px;
+  --type-xl: 32px;
+  --radius: 12px;
+  --row: 64px;
+  --swatch: 48px;
+  --gap: 16px;
+  --pad: 20px;
+  --btn: 64px;
+  --focus: 3px solid var(--accent);
+}
+
+:root[data-density="simple"],
+:root[data-density="guided"] {
+  --row: 72px;
+  --swatch: 52px;
+  --gap: 16px;
+  --pad: 20px;
+  --radius: 16px;
+  --btn: 72px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: var(--type-md);
+  font-weight: 500;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+[tabindex="0"]:focus-visible {
+  outline: var(--focus);
+  outline-offset: 2px;
+}
+
+.kbd {
+  display: inline-block;
+  padding: 0 5px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--bg-sunken);
+  color: var(--text-dim);
+  font-family: var(--font-mono);
+  font-size: var(--type-xs);
+  font-weight: 600;
+}
