@@ -1,0 +1,10 @@
+node_modules
+dist
+*.log
+.DS_Store
+tintrail/var/*.db
+tintrail/var/*.db-wal
+tintrail/var/*.db-shm
+tintrail/var/labels/*.txt
+.env
+.env.local
