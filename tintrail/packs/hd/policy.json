@@ -1,0 +1,11 @@
+{
+  "pack": "hd",
+  "crossover": "allow-multi-brand",
+  "offlineCatalog": "full-last-good",
+  "layout": "hd-pit",
+  "notify": "off",
+  "commerce": false,
+  "inboundAdapter": "synthetic",
+  "stations": ["D1", "D2"],
+  "hideBrands": []
+}
