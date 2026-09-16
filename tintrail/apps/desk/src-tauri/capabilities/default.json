@@ -1,0 +1,6 @@
+{
+  "identifier": "default",
+  "description": "TintRail Desk window",
+  "windows": ["main"],
+  "permissions": ["core:default", "shell:allow-open"]
+}
